@@ -1,5 +1,5 @@
 # [Monitoring](https://monitoring-demo.pandeo.fr)
-> Small work during internship {{}}
+> Small work during internship
 
 ## File :<br />
 > - [config](https://github.com/PandeoF1/monitoring/tree/main/conf) -> Configuration file <br />
