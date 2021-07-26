@@ -1,0 +1,191 @@
+﻿SQLServer:Latches
+ServiceModelService 4.0.0.0
+Security System-Wide Statistics
+SQLServer:Replication Agents
+SQLServer:CLR
+Cache
+ServiceModelService 3.0.0.0
+SQLServer:Databases
+SQLServer:FileTable
+SQLServer:Broker Statistics
+RAS
+IPHTTPS Global
+Peer Name Resolution Protocol
+RAS Port
+XHCI TransferRing
+ICMP
+Teredo Relay
+IPv4
+IPsec Driver
+SQLServer:Cursor Manager by Type
+XHCI Interrupter
+SQLServer:Wait Statistics
+WorkflowServiceHost 4.0.0.0
+SQLServer:User Settable
+Server
+SQLServer:Buffer Node
+.NET CLR Memory
+LogicalDisk
+Security Per-Process Statistics
+SQLServer:Catalog Metadata
+IPHTTPS Session
+Database
+IPsec IKEv2 IPv6
+IPsec IKEv2 IPv4
+Physical Network Interface Card Activity
+RAS Total
+DNS64 Global
+SQLServer:Query Execution
+VMware
+SQLServer:SQL Statistics
+System
+SQLAgent:Jobs
+Database ==> Instances
+SQLServer:Access Methods
+ASP.NET
+SQLServer:Replication Snapshot
+Pacer Pipe
+Distributed Routing Table
+Search Gatherer
+SMB Server Sessions
+IPsec Connections
+Per Processor Network Activity Cycles
+SQLServer:Memory Node
+NUMA Node Memory
+SQLServer:Database Mirroring
+SQLServer:Backup Device
+ProcessorPerformance
+Network Interface
+SQLServer:SQL Errors
+HTTP Service Request Queues
+Power Meter
+XHCI CommonBuffer
+Network QoS Policy
+IPsec AuthIP IPv4
+Microsoft Winsock BSP
+IPsec AuthIP IPv6
+Server Work Queues
+ASP.NET Apps v4.0.30319
+Windows Workflow Foundation
+SQLServer:Replication Merge
+SQLServer:Resource Pool Stats
+Synchronization
+Web Service Cache
+Event Tracing for Windows
+WMI Objects
+.NET CLR Networking
+PhysicalDisk
+Generic IKEv1, AuthIP, and IKEv2
+RemoteFX Graphics
+SQLServer:SSIS Pipeline 11.0
+Powershell 工作流
+.NET CLR Security
+ServiceModelEndpoint 4.0.0.0
+SQLAgent:JobSteps
+ServiceModelOperation 4.0.0.0
+MSRS 2011 Windows Service SharePoint Mode
+Job Object Details
+APP_POOL_WAS
+Network Adapter
+IPv6
+Processor Information
+SQLServer:Locks
+BitLocker
+SQLAgent:Alerts
+MSRS 2011 Web Service SharePoint Mode
+SMSvcHost 3.0.0.0
+TCPIP Performance Diagnostics
+SQLServer:Availability Replica
+NBT Connection
+SQLServer:General Statistics
+Web Service
+MSDTC Bridge 4.0.0.0
+SQLServer:SSIS Service 11.0
+USB
+Search Indexer
+Database ==> TableClasses
+Memory
+TCPv6
+WSMan Quota Statistics
+TCPv4
+ASP.NET Apps v2.0.50727
+ServiceModelEndpoint 3.0.0.0
+.NET CLR Remoting
+IPsec IKEv1 IPv4
+Netlogon
+.NET Data Provider for Oracle
+WF (System.Workflow) 4.0.0.0
+Authorization Manager Applications
+UDPv4
+SQLServer:Broker TO Statistics
+UDPv6
+.NET CLR Interop
+Search Gatherer Projects
+SMB Server Shares
+Fax Service
+SQLServer:Workload Group Stats
+FileSystem Disk Activity
+SynchronizationNuma
+SQLServer:Exec Statistics
+SQLServer:Database Replica
+ReadyBoost Cache
+SQLServer:Replication Logreader
+.NET CLR Jit
+SQLServer:Broker Activation
+ICMPv6
+ASP.NET Applications
+SQLServer:Plan Cache
+HTTP Service
+Oracle Data Provider for .NET
+Per Processor Network Interface Card Activity
+ServiceModelOperation 3.0.0.0
+SQLServer:Broker/DBM Transport
+Event Tracing for Windows Session
+SQLServer:Buffer Manager
+Pacer Flow
+Internet Information Services Global
+SQLServer:Cursor Manager Total
+Paging File
+SQLServer:Memory Broker Clerks
+ASP.NET v4.0.30319
+Browser
+Storage Spaces Tier
+WFPv4
+Job Object
+WFPv6
+.NET CLR Networking 4.0.0.0
+Distributed Transaction Coordinator
+.NET CLR Exceptions
+.NET Data Provider for SqlServer
+HTTP Service Url Groups
+Telephony
+ASP.NET State Service
+Teredo Server
+SQLAgent:Statistics
+WAS_W3WP
+Teredo Client
+Terminal Services
+.NET CLR LocksAndThreads
+SQLServer:Replication Dist.
+SQLServer:Deprecated Features
+WFP
+Redirector
+ASP.NET v2.0.50727
+Objects
+SQLServer:Batch Resp Statistics
+IPsec IKEv1 IPv6
+SMSvcHost 4.0.0.0
+Process
+MSDTC Bridge 3.0.0.0
+SQLServer:Memory Manager
+.NET CLR Data
+Storage Spaces Write Cache
+W3SVC_W3WP
+Thread
+RemoteFX Network
+.NET CLR Loading
+BITS Net Utilization
+ReportServerSharePoint:Service
+Processor
+SQLServer:Transactions
+Thermal Zone Information

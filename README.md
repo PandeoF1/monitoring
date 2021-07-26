@@ -19,7 +19,7 @@ uwu
  > - php <br />
 ## Compatibility :
  > - Default : Windows (C#) <br />
- > - Linux (Debian/Ubuntu) with mono <br />
+ > - Linux (Debian/Ubuntu) with mono (Maybe x) ) <br />
 ### Todo :
 - [ ] Clean the code.
 - [ ] Made a c/c++ client version for linux and windows
