@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+/*__________________Paramètres généraux__________________________*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: rgb(0, 156, 177);
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 2vw;
+}
+
+.search_page {
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    width: 35%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.search_page h1 {
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding: 2%;
+}
+
+.search_page h3 {
+    text-align: center;
+}
+
+.search_machine {
+    position: relative;
+    text-align: center;
+}
+
+.select_machine {
+    cursor: pointer;
+}
+
+.search_button {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.button_search {
+    border: none;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button_search:hover {
+    color: #999;
+}
+
+.graph1 {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+    top: 2vw;
+    left: 2vw;
+    width: 47%;
+    height: 45%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.graph1 h1 {
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding-bottom: 0.5vw;
+}
+
+.graph2 {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    top: 2vw;
+    width: 47%;
+    height: 45%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.graph2 h1 {
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding-bottom: 0.5vw;
+}
+
+.chart {
+    width: 97%;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    height: 80%;
+}
+
+.back_button {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    top: 2vw;
+    float: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.back_button:hover {
+    opacity: 0.8;
+}
+
+.img_back {
+    display: block;
+    height: 2vw;
+    width: 2vw;
+    background: transparent;
+}
+
+.refresh_button {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    top: -2vw;
+    float: right;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img_refresh {
+    display: block;
+    height: 2vw;
+    width: 2vw;
+    background: transparent;
+}
