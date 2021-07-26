@@ -107,7 +107,7 @@ namespace ConsoleApp1
                     string uuid = outputt;
                     uuid = uuid.Replace("UUID", "").Replace("\n", "").Replace("\r", "").Replace(" ", "");
                     /*------------------------------------------------ SQL ------------------------------------------------*/
-                    string cs = @"server=10.84.192.202;userid=toor;password=toor;database=monitoring";
+                    string cs = @"server=server_ip;userid=user;password=pass;database=monitoring";
                     var db_conn = new MySqlConnection(cs);
                     try
                     {

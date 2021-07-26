@@ -2,11 +2,12 @@
 > Cursed work during internship
 
 ## File :<br />
-> - [config](https://github.com/PandeoF1/ticket-manager/tree/main/config) -> Configuration file <br />
-> - [css](https://github.com/PandeoF1/ticket-manager/tree/main/css) -> CSS file <br />
-> - [js](https://github.com/PandeoF1/ticket-manager/tree/main/js) -> JS file (Jquery & canvajs) <br />
-> - [sql](https://github.com/PandeoF1/ticket-manager/tree/main/sql) -> SQL file (Database template) <br />
-> - [index.php](https://github.com/PandeoF1/ticket-manager/blob/main/index.php) -> The website<br />
+> - [config](https://github.com/PandeoF1/monitoring/tree/main/conf) -> Configuration file <br />
+> - [css](https://github.com/PandeoF1/monitoring/tree/main/css) -> CSS file <br />
+> - [js](https://github.com/PandeoF1/monitoring/tree/main/js) -> JS file (Jquery & canvajs) <br />
+> - [sql](https://github.com/PandeoF1/monitoring/tree/main/sql) -> SQL file (Database template) <br />
+> - [index.php](https://github.com/PandeoF1/monitoring/blob/main/index.php) -> The website<br />
+> - [client](https://github.com/PandeoF1/monitoring/tree/main/client) -> C# Client<br />
 
 
 ## Apache Configuration File :
