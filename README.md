@@ -9,45 +9,6 @@
 > - [index.php](https://github.com/PandeoF1/monitoring/blob/main/index.php) -> The website<br />
 > - [client](https://github.com/PandeoF1/monitoring/tree/main/client) -> C# Client<br />
 
-
-## Apache Configuration File :
-```` 
------------------- Without SSL ------------------
-
-<VirtualHost *:80>
-  ServerName <domain> #Optionnal
-  DocumentRoot "/var/www/monitoring/"
-  AllowEncodedSlashes On
-  php_value upload_max_filesize 100M
-  php_value post_max_size 100M
-  <Directory "/var/www/monitoring/">
-    AllowOverride all
-  </Directory>
-</VirtualHost>
-
------------------- With SSL ------------------
-<VirtualHost *:80>
-  ServerName <domain>
-  RewriteEngine On
-  RewriteCond %{HTTPS} !=on
-  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L] 
-</VirtualHost>
-<VirtualHost *:443>
-  ServerName <domain>
-  DocumentRoot "/var/www/monitoring/"
-  AllowEncodedSlashes On
-  php_value upload_max_filesize 100M
-  php_value post_max_size 100M
-  <Directory "/var/www/monitoring/">
-    Require all granted
-    AllowOverride all
-  </Directory>
-  SSLEngine on
-  SSLCertificateFile /etc/letsencrypt/live/<domain>/fullchain.pem
-  SSLCertificateKeyFile /etc/letsencrypt/live/<domain>/privkey.pem
-</VirtualHost> 
-
-````
 ## Requirements :
  > - apache2 <br />
  > - mysql/mariadb (10.x) <br />
@@ -89,10 +50,47 @@ Clone the project on your computer, configure at the top of the program :
 Compile the project and launch it in every computer.
 
 ```
+## (Recommended) Apache Configuration File :
+```` 
+------------------ Without SSL ------------------
 
+<VirtualHost *:80>
+  ServerName <domain> #Optionnal
+  DocumentRoot "/var/www/monitoring/"
+  AllowEncodedSlashes On
+  php_value upload_max_filesize 100M
+  php_value post_max_size 100M
+  <Directory "/var/www/monitoring/">
+    AllowOverride all
+  </Directory>
+</VirtualHost>
+
+------------------ With SSL ------------------
+<VirtualHost *:80>
+  ServerName <domain>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L] 
+</VirtualHost>
+<VirtualHost *:443>
+  ServerName <domain>
+  DocumentRoot "/var/www/monitoring/"
+  AllowEncodedSlashes On
+  php_value upload_max_filesize 100M
+  php_value post_max_size 100M
+  <Directory "/var/www/monitoring/">
+    Require all granted
+    AllowOverride all
+  </Directory>
+  SSLEngine on
+  SSLCertificateFile /etc/letsencrypt/live/<domain>/fullchain.pem
+  SSLCertificateKeyFile /etc/letsencrypt/live/<domain>/privkey.pem
+</VirtualHost> 
+
+````
 ### Contributor :
- > - [A.Rouleau](https://github.com/Mr-ToX) -> CSS & HTML.
- > - [T.Nard](https://github.com/PandeoF1/) -> PHP, SQL & JS.
+ > - [A.Rouleau - Mr_Tox](https://github.com/Mr-ToX) -> CSS & HTML.
+ > - [T.Nard - Pandeo_F1](https://github.com/PandeoF1/) -> C#, PHP, SQL & JS.
 
 ### Compatibility :
  > - Default : Windows (C#) <br />
@@ -100,8 +98,8 @@ Compile the project and launch it in every computer.
 
 ### Todo :
 - [ ] Clean the code.
-- [ ] Made a c/c++ client version for linux and windows
-- [ ] Installation guide.
+- [ ] Make a c/c++ client version for linux and windows
+- [x] Installation guide.
 
 ### Other :
 
